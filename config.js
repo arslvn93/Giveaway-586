@@ -1,34 +1,32 @@
 const config = {
     giveaway: {
-        name: "Burger Jabs Feast", // Used for modal, etc.
-        heroHeadline: "Win a <span class='highlight'>$100 Burger Feast</span> at Burger Jabs!", // Supports HTML
-        heroSubheadline: "Enter for a chance to indulge in a $100 meal at Burger Jabs—where family, flavor, and community come together!",
-        promotionDates: "Promotion runs from May 9, 2025 until June 9, 2025.",
-        endDate: "2025-06-09T23:59:59", // Format: YYYY-MM-DDTHH:MM:SS (for countdown)
-        heroBackgroundImageUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1990&q=80", // Burger specific
-        heroCtaText: "Enter Now for a Feast!",
+        name: "Erica Reddy-Choquette Giveaway", // Used for modal, etc.
+        heroHeadline: "Win a <span class='highlight'>Free Home Consultation & Gift Package</span> with Erica Reddy-Choquette!", // Supports HTML
+        heroSubheadline: "Enter for a chance to connect with Erica Reddy-Choquette from Royal LePage Signature for expert real estate advice and a special gift package!",
+        promotionDates: "Promotion runs from May 1, 2025 until May 31, 2025.",
+        endDate: "2025-05-31T23:59:59", // Format: YYYY-MM-DDTHH:MM:SS (for countdown)
+        heroBackgroundImageUrl: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2d3322d2-1afe-448b-83c7-57b6eb3e9931/DSC00313.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UYAVY6ZS%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T004637Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCRiSVExAsrPRjS%2B2WWVh4IOH49K9pAjJrQqhsb7fCCPwIgPWgLViNJ1pGWNRKwBEZ6LWQagcX9iE9XzbFmllET1S4q%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDHmHX1wIKZ3426CvdircA9v%2FHJllLC6zMPdveigdmhf3HbQv8p6V36Z8cxCRHXken7SD8WaDLMSRI4OpzP4yUpV0In3uN2elLzpVR602oZ8rh6ewQheq9eWunGKObzwOdhEjmgy86kRkJ1VbiBT1WaEu%2FE%2BrhMcxwjCGkCfb3KNvFMv3XTilp%2BpE0HaxkL%2Fa5eS3IhdI%2Fl86kvbv3Edb7jdyQBF8KUafIN2%2F5Y7PQycIfodyAdy0weckj20dZ%2FTdzObCM0bubGd9YSDKYp1utzsjuOLORzrEFoUa42DYQOXcNctzu2K5YLpyYhc6s27l2%2FZctBFd7MY8UZ0yzQ%2FRKhO9M9J3D%2BG5lepLUoTAvmNZ1hM88MgBVgvEVTdqJgDY99IL6xiNebn5StxtAGuISxYuqVNkCYfjPDubvSkzneSjWgDQlVaXKZE15lbH7u5Br2tsPMy43gFqbfnjleTJadd2VVBS%2BJfhhH9TICNriS6mDku1SnVB4G1OBDRG49gV%2BhwFPlBYFBSMaWPvR5zvVtdP3%2BnHEU70aTWZslw8vP7L61pp%2FfVPUl0Tuo8QNDvnOyJscdN6igg4Rrd6YO1Fdn3%2FsLx0CJk%2FUcAcY1vCuAEQHJCxMVb5diIuUjsI4Y1gz73sREl5wbUZVMkCMM7378AGOqUBSt0XJlLKUCABAIVWhphMWdS9RjQLPPea%2FuO74Gc7Md2JxYHtbGAf%2F68wgP%2FnLAftrnVPSbahcnkYBtBdDliXOmGoXkU39MMrQLEek%2B%2FOBn4jUVSUhMYDwNLQJBV6TPYHCWrCsLa4L2w%2FhxbTL5eTrJ%2BR%2FG%2BVDjiLSc3rMjtm%2Bo7rxmWA%2BM8BYDToh7kt2W%2FyT8rpj%2BJFg4bJjOzcIec%2BY0%2FShEyJ&X-Amz-Signature=8cb37ee72ac1559939deb00986d979fc557990943a8cae39aba11da156305e9a&X-Amz-SignedHeaders=host&x-id=GetObject", // Agent Headshot
+        heroCtaText: "Enter Now to Win!",
         entryFormCtaText: "Count Me In!",
         successModalHeaderText: "🎉 You're In! 🎉",
-        successModalMainMessage: "Your entry for the <strong>Burger Jabs $100 Feast Giveaway</strong> has been successfully submitted. Best of luck!", // Supports HTML
-        successModalEmailPrompt: "We'll announce the winner via email after the draw date. Keep an eye on your inbox!",
+        successModalMainMessage: "Your entry for the <strong>Erica Reddy-Choquette Free Home Consultation Giveaway</strong> has been successfully submitted. Best of luck!", // Supports HTML
+        successModalEmailPrompt: "You'll be contacted via email after the draw date. Keep an eye on your inbox!",
     },
     prize: {
-        name: "Burger Jabs $100 Family Feast Voucher",
-        value: "$100 Value",
-        description: "Get ready to treat your family (or yourself!) to an unforgettable meal. You're entering for a chance to win a $100 gift voucher to enjoy juicy burgers, crispy fries, refreshing drinks, and more at Burger Jabs—the newest local hotspot that brings community and incredible flavor together under one roof.",
+        name: "Free Home Consultation & Gift Package",
+        value: "Exclusive Offer",
+        description: "Enter for a chance to receive a free personalized home consultation with Erica Reddy-Choquette plus a special gift package to help you start your home journey.",
         images: [
-            { src: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80", alt: "Delicious Burger Combo" },
-            { src: "https://images.unsplash.com/photo-1606131731446-5568087118aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80", alt: "Another view of burgers" },
-            { src: "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80", alt: "Fries and Burger" }
+            { src: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UYAVY6ZS%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T004637Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCRiSVExAsrPRjS%2B2WWVh4IOH49K9pAjJrQqhsb7fCCPwIgPWgLViNJ1pGWNRKwBEZ6LWQagcX9iE9XzbFmllET1S4q%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDHmHX1wIKZ3426CvdircA9v%2FHJllLC6zMPdveigdmhf3HbQv8p6V36Z8cxCRHXken7SD8WaDLMSRI4OpzP4yUpV0In3uN2elLzpVR602oZ8rh6ewQheq9eWunGKObzwOdhEjmgy86kRkJ1VbiBT1WaEu%2FE%2BrhMcxwjCGkCfb3KNvFMv3XTilp%2BpE0HaxkL%2Fa5eS3IhdI%2Fl86kvbv3Edb7jdyQBF8KUafIN2%2F5Y7PQycIfodyAdy0weckj20dZ%2FTdzObCM0bubGd9YSDKYp1utzsjuOLORzrEFoUa42DYQOXcNctzu2K5YLpyYhc6s27l2%2FZctBFd7MY8UZ0yzQ%2FRKhO9M9J3D%2BG5lepLUoTAvmNZ1hM88MgBVgvEVTdqJgDY99IL6xiNebn5StxtAGuISxYuqVNkCYfjPDubvSkzneSjWgDQlVaXKZE15lbH7u5Br2tsPMy43gFqbfnjleTJadd2VVBS%2BJfhhH9TICNriS6mDku1SnVB4G1OBDRG49gV%2BhwFPlBYFBSMaWPvR5zvVtdP3%2BnHEU70aTWZslw8vP7L61pp%2FfVPUl0Tuo8QNDvnOyJscdN6igg4Rrd6YO1Fdn3%2FsLx0CJk%2FUcAcY1vCuAEQHJCxMVb5diIuUjsI4Y1gz73sREl5wbUZVMkCMM7378AGOqUBSt0XJlLKUCABAIVWhphMWdS9RjQLPPea%2FuO74Gc7Md2JxYHtbGAf%2F68wgP%2FnLAftrnVPSbahcnkYBtBdDliXOmGoXkU39MMrQLEek%2B%2FOBn4jUVSUhMYDwNLQJBV6TPYHCWrCsLa4L2w%2FhxbTL5eTrJ%2BR%2FG%2BVDjiLSc3rMjtm%2Bo7rxmWA%2BM8BYDToh7kt2W%2FyT8rpj%2BJFg4bJjOzcIec%2BY0%2FShEyJ&X-Amz-Signature=e0c73af3ef924a7f33a7718ec540306447fb2c4ca36c009093e20b3050f542e1&X-Amz-SignedHeaders=host&x-id=GetObject", alt: "Erica Reddy-Choquette Logo" }
         ],
         includedItems: [
-            { icon: "fas fa-ticket-alt", text: "Exclusive $100 gift voucher for anything on the menu" },
-            { icon: "fas fa-users", text: "Perfect for a family feast or a treat with friends" },
-            { icon: "fas fa-store-alt", text: "Support a fantastic local business: Burger Jabs" },
+            { icon: "fas fa-home", text: "Personalized Home Consultation with Erica Reddy-Choquette" },
+            { icon: "fas fa-gifts", text: "Exclusive Gift Package to Help You Get Started" },
+            { icon: "fas fa-users", text: "Expert Advice from a Trusted Local Realtor" },
             { icon: "fas fa-check-circle", text: "No purchase necessary to enter or win" },
             { icon: "fas fa-bolt", text: "Quick and easy online entry!" }
         ],
-        limitedTimeOfferText: "🎁 Limited Time Giveaway!",
+        limitedTimeOfferText: "🎁 May 2025 Special Giveaway!",
         ctaButtonText: "I WANT TO WIN THIS!"
     },
     howToEnter: {
@@ -39,19 +37,19 @@ const config = {
         ],
         highlights: [
             { icon: "fas fa-stopwatch", text: "Quick & Easy Entry" },
-            { icon: "fas fa-gift", text: "Amazing $100 Prize" },
+            { icon: "fas fa-gift", text: "Exclusive Gift Package" },
             { icon: "fas fa-smile", text: "Free to Enter!" }
         ]
     },
     entryForm: {
-        subtitle: "Provide your details below for a chance to win this delicious prize!",
-        entryCountText: "Over 500+ entries already! Don't miss out!",
-        socialSharePrompt: "Tell your friends about this awesome giveaway:",
+        subtitle: "Provide your details below for a chance to win this exclusive home consultation and gift package!",
+        entryCountText: "Join over 200+ entries already! Don't miss out!",
+        socialSharePrompt: "Tell your friends about this amazing giveaway:",
         sharePlatforms: {
             facebook: "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-            twitter: "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Check out this amazing Burger Jabs giveaway!"),
+            twitter: "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Win a Free Home Consultation with Erica Reddy-Choquette!"),
         },
-        termsText: "By entering, you agree to our <a href='YOUR_TERMS_LINK_HERE' target='_blank'>Terms & Conditions</a> and <a href='YOUR_PRIVACY_POLICY_LINK_HERE' target='_blank'>Privacy Policy</a>."
+        termsText: "By entering, you agree to our <a href='https://ericareddy.com' target='_blank'>Privacy Policy</a>."
     },
     rules: {
         fairSelectionInfo: {
@@ -60,52 +58,52 @@ const config = {
         },
         importantNotice: {
             title: "Winner Notification - Check Your Email!",
-            text: "The lucky winner will be contacted exclusively via the email address provided during entry. Please ensure your email is correct. We recommend checking your inbox, promotions tab, and spam/junk folder regularly after the giveaway concludes."
+            text: "The lucky winner will be contacted exclusively via the email address provided during entry. Please ensure your email is correct. Check your inbox, promotions tab, and spam/junk folder regularly after the giveaway concludes."
         },
         faq: [
-            { q: "Who is eligible to enter?", a: "This giveaway is open to legal residents of [Your City/Region/Country] who are 18 years of age or older at the time of entry." },
-            { q: "How long does the giveaway run?", a: "The giveaway starts on May 9, 2025, and all entries must be received by June 9, 2025, at 11:59 PM [Your Timezone]." },
-            { q: "How will the winner be selected?", a: "One (1) winner will be selected in a random drawing from all eligible entries received during the promotion period." },
-            { q: "When and how will the winner be notified?", a: "The potential winner will be notified by email on or about June 12, 2025. They will have [e.g., 48 hours] to respond and claim their prize." },
+            { q: "Who is eligible to enter?", a: "This giveaway is open to legal residents of Toronto and surrounding areas who are 18 years of age or older at the time of entry." },
+            { q: "How long does the giveaway run?", a: "The giveaway starts on May 1, 2025, and all entries must be received by May 31, 2025, at 11:59 PM EST." },
+            { q: "How will the winner be selected?", a: "One (1) winner will be selected randomly from all eligible entries received during the promotion period." },
+            { q: "When and how will the winner be notified?", a: "The winner will be notified by email on or about June 3, 2025. They will have 48 hours to claim their prize." },
             { q: "How many times can I enter?", a: "Limit one (1) entry per person/email address during the entire promotion period. Duplicate entries will be disqualified." },
-            { q: "Is my information secure?", a: "We respect your privacy. Your information will be used solely for the purpose of this giveaway and in accordance with our Privacy Policy. We do not sell your data." }
+            { q: "Is my information secure?", a: "We respect your privacy. Your information will be used solely for this giveaway and in accordance with our Privacy Policy. We do not sell your data." }
         ],
         fullRulesPdfLink: "", // Link to a PDF if you have one, or set to null/empty to hide.
         tips: [
             "Double-check your email address for typos before submitting.",
-            "Add our contact email (if provided in footer) to your address book to ensure you receive notifications.",
-            "Follow [Organizer Name] on social media for winner announcements (optional)."
+            "Add erica@ericareddy.com to your address book to ensure you receive notifications.",
+            "Follow Erica Reddy-Choquette on social media for winner announcements."
         ]
     },
     footerContact: {
-        organizerName: "Burger Jabs Restaurant",
-        organizerLogoUrl: "https://via.placeholder.com/200x60/FF7A00/4A3F35?text=Burger+Jabs",
-        email: "hello@burgerjabs.com",
-        phone: "(555) 123-BURGER",
-        address: "123 Delicious Lane, Foodie Town, USA",
+        organizerName: "Erica Reddy-Choquette Team",
+        organizerLogoUrl: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UYAVY6ZS%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T004637Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCRiSVExAsrPRjS%2B2WWVh4IOH49K9pAjJrQqhsb7fCCPwIgPWgLViNJ1pGWNRKwBEZ6LWQagcX9iE9XzbFmllET1S4q%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDHmHX1wIKZ3426CvdircA9v%2FHJllLC6zMPdveigdmhf3HbQv8p6V36Z8cxCRHXken7SD8WaDLMSRI4OpzP4yUpV0In3uN2elLzpVR602oZ8rh6ewQheq9eWunGKObzwOdhEjmgy86kRkJ1VbiBT1WaEu%2FE%2BrhMcxwjCGkCfb3KNvFMv3XTilp%2BpE0HaxkL%2Fa5eS3IhdI%2Fl86kvbv3Edb7jdyQBF8KUafIN2%2F5Y7PQycIfodyAdy0weckj20dZ%2FTdzObCM0bubGd9YSDKYp1utzsjuOLORzrEFoUa42DYQOXcNctzu2K5YLpyYhc6s27l2%2FZctBFd7MY8UZ0yzQ%2FRKhO9M9J3D%2BG5lepLUoTAvmNZ1hM88MgBVgvEVTdqJgDY99IL6xiNebn5StxtAGuISxYuqVNkCYfjPDubvSkzneSjWgDQlVaXKZE15lbH7u5Br2tsPMy43gFqbfnjleTJadd2VVBS%2BJfhhH9TICNriS6mDku1SnVB4G1OBDRG49gV%2BhwFPlBYFBSMaWPvR5zvVtdP3%2BnHEU70aTWZslw8vP7L61pp%2FfVPUl0Tuo8QNDvnOyJscdN6igg4Rrd6YO1Fdn3%2FsLx0CJk%2FUcAcY1vCuAEQHJCxMVb5diIuUjsI4Y1gz73sREl5wbUZVMkCMM7378AGOqUBSt0XJlLKUCABAIVWhphMWdS9RjQLPPea%2FuO74Gc7Md2JxYHtbGAf%2F68wgP%2FnLAftrnVPSbahcnkYBtBdDliXOmGoXkU39MMrQLEek%2B%2FOBn4jUVSUhMYDwNLQJBV6TPYHCWrCsLa4L2w%2FhxbTL5eTrJ%2BR%2FG%2BVDjiLSc3rMjtm%2Bo7rxmWA%2BM8BYDToh7kt2W%2FyT8rpj%2BJFg4bJjOzcIec%2BY0%2FShEyJ&X-Amz-Signature=e0c73af3ef924a7f33a7718ec540306447fb2c4ca36c009093e20b3050f542e1&X-Amz-SignedHeaders=host&x-id=GetObject",
+        email: "erica@ericareddy.com",
+        phone: "(416) 587-2782",
+        address: "8 Sampson Mews Unit 201, Toronto, ON M3C0H5",
         social: {
-            facebook: "",
-            instagram: "",
+            facebook: "https://calendly.com/ericareddy",
+            instagram: "https://www.instagram.com/ericareddy"
         },
-        copyrightOwner: "Burger Jabs Co."
+        copyrightOwner: "Erica Reddy-Choquette Team"
     },
     meta: {
-        pageTitle: "Burger Jabs $100 Feast Giveaway!",
-        navBrandLogoText: "Burger Jabs",
-        privacyPolicyLink: "",
-        termsLink: "",
+        pageTitle: "Erica Reddy-Choquette May 2025 Giveaway!",
+        navBrandLogoText: "Erica Reddy-Choquette",
+        privacyPolicyLink: "https://ericareddy.com",
+        termsLink: "https://ericareddy.com/terms"
     },
     settings: {
         webhookUrl: "https://n8n.salesgenius.co/webhook/giveawayupdate",
-        confettiColors: ['#FF7A00', '#FFC107', '#4CAF50', '#FFFFFF', '#FFF5E6'],
-        showCountdownInHero: true,
+        confettiColors: ['#004aad', '#f7a544', '#009688', '#ffffff'],
+        showCountdownInHero: true
     },
     deploymentInfo: {
-        repoName: "openhouse",
-        repoUrl: "https://github.com/arslvn93/openhouse",
-        tag: "Open House 168 Abbey",
-        netlifyUrl: "https://openhousetester.netlify.app/",
-        netlifyId: "547dc1ef-2c83-4d08-815f-344d40fc3ca2"
+        repoName: "Giveaway-586",
+        repoUrl: "https://github.com/arslvn93/Giveaway-586",
+        tag: "Erica Reddy-Choquette May 2025",
+        netlifyUrl: "http://Giveaway-586.netlify.app",
+        netlifyId: "979716955"
     },
     modalQuestions: []
- };
+};
