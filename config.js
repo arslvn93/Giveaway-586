@@ -1,6 +1,6 @@
 const config = {
   "giveaway": {
-    "name": "Arslan Giveaway",
+    "name": "Arslan",
     "heroHeadline": "Win a <span class='highlight'>Free Home Consultation & Gift Package</span> with Erica Reddy-Choquette!",
     "heroSubheadline": "Enter for a chance to connect with Erica Reddy-Choquette from Royal LePage Signature for expert real estate advice and a special gift package!",
     "promotionDates": "Promotion runs from May 1, 2025 until May 31, 2025.",
@@ -82,8 +82,8 @@ const config = {
   },
   "entryForm": {
     "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-586.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-586.netlify.app%2Fadmin&text=Win%20a%20Free%20Home%20Consultation%20with%20Erica%20Reddy-Choquette!"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-294.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-294.netlify.app%2Fadmin&text=Win%20a%20Free%20Home%20Consultation%20with%20Erica%20Reddy-Choquette!"
     },
     "subtitle": "Provide your details below for a chance to win this exclusive home consultation and gift package!",
     "entryCountText": "Join over 200+ entries already! Don't miss out!",
