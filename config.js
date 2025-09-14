@@ -150,7 +150,7 @@ const config = {
   },
   "meta": {
     "pageTitle": "Erica Reddy-Choquette",
-    "navBrandLogoText": "Erica Reddy-Choquette",
+    "navBrandLogoText": "THEFAN",
     "privacyPolicyLink": "https://ericareddy.com",
     "termsLink": "https://ericareddy.com/terms"
   },
