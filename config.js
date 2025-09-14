@@ -39,6 +39,10 @@ const config = {
       {
         "icon": "fas fa-bolt",
         "text": "Quick and easy online entry!"
+      },
+      {
+        "icon": "ygfubgjuhoinhbhlvjnijibyg",
+        "text": ""
       }
     ],
     "name": "Free Home Consultation & Gift Package",
@@ -145,7 +149,7 @@ const config = {
     "copyrightOwner": "Erica Reddy-Choquette Team"
   },
   "meta": {
-    "pageTitle": "Erica Reddy-Choquette May 2025 Giveaway!",
+    "pageTitle": "Erica Reddy-Choquette",
     "navBrandLogoText": "Erica Reddy-Choquette",
     "privacyPolicyLink": "https://ericareddy.com",
     "termsLink": "https://ericareddy.com/terms"
