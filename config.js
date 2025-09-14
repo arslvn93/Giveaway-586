@@ -22,7 +22,7 @@ const config = {
     "includedItems": [
       {
         "icon": "fas fa-home",
-        "text": "Personalized Home Consultation with Erica Reddy-Choquette"
+        "text": "Personalized Home Consultation with Erica Reddy-Choquette yes"
       },
       {
         "icon": "fas fa-gifts",
