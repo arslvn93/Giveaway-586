@@ -1,8 +1,8 @@
 const config = {
   "fullName": "alex",
-  "email": "vjk.h.ilhu@gmail.com",
+  "email": "alex@gmail.com",
   "giveawayName": "Arslan",
-  "submittedAt": "2025-09-20T11:05:59.369Z",
+  "submittedAt": "2025-09-20T11:10:19.470Z",
   "deploymentInfo": {
     "repoName": "Giveaway-586",
     "repoUrl": "https://github.com/arslvn93/Giveaway-586",
